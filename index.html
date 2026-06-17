@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flor de Cetim — Buquês Artesanais</title>
+<link rel="stylesheet" href="style.css"
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Petal Canvas -->
+<canvas id="petals-canvas"></canvas>
+
+<!-- Header -->
+<header id="site-header">
+  <a class="logo" href="#inicio">Flor de <span>Cetim</span></a>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#contato">Contato</a>
+    <a class="btn-header" href="#contato">Solicitar Orçamento</a>
+  </nav>
+  <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="#inicio" onclick="closeMobile()">Início</a>
+  <a href="#catalogo" onclick="closeMobile()">Catálogo</a>
+  <a href="#contato" onclick="closeMobile()">Contato</a>
+  <a class="btn-header" href="#contato" onclick="closeMobile()">Solicitar Orçamento</a>
+</div>
+
+<!-- Hero -->
+<section id="inicio">
+  <div class="hero-text">
+    <span class="hero-eyebrow">✦ Arte em cada pétala</span>
+    <h1 class="hero-title">
+      Buquês Artesanais<br>em <em>Cetim</em> e <em>Seda</em>
+    </h1>
+    <p class="hero-sub">
+      Flores que nunca murcham. Cada buquê é confeccionado à mão com materiais
+      premium de cetim e seda.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="#catalogo">Ver Catálogo</a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img
+      src="Flores/flores1.png"
+      alt="Flores laranjas"
+      loading="eager"
+    >
+    <div class="hero-badge">
+      <span class="badge-num">100%</span>
+      <span class="badge-txt">Feito<br>à Mão</span>
+    </div>
+  </div>
+</section>
+
+<!-- Features Bar -->
+<div class="features-bar">
+  <div class="feat-item"><div class="feat-icon">🌸</div> Flores Artificiais Premium</div>
+  <div class="feat-item"><div class="feat-icon">✂️</div> Confecção Artesanal</div>
+  <div class="feat-item"><div class="feat-icon">🎁</div> Embalagem Personalizada</div>
+  <div class="feat-item"><div class="feat-icon">✦</div> Durabilidade Eterna</div>
+</div>
+
+<!-- Catalog -->
+<section id="catalogo">
+  <div class="section-header reveal">
+    <span class="section-eyebrow">Nossos Produtos</span>
+    <h2 class="section-title">Catálogo de <em>Buquês</em></h2>
+    <p class="section-sub">Cada peça é única, criada com amor e dedicação para momentos que merecem ser eternizados.</p>
+  </div>
+
+  <div class="catalog-grid">
+
+    <div class="product-card reveal">
+      <div class="card-img">
+        <img src="flores/didi.png"">
+        <span class="card-tag">Exclusivo</span>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Buquê Azul Serenidade</div>
+        <p class="card-desc">Flores de seda azul em tons degradê, transmitindo calma e sofisticação.</p>
+        <a class="btn-card" href="https://wa.me/558486217473?text=Olá!%20Tenho%20interesse%20no%20Buquê%20Azul%20Serenidade" target="_blank">Solicitar Orçamento</a>
+      </div>
+    </div>
+
+    <div class="product-card reveal">
+      <div class="card-img">
+        <img src="Flores/bia.png">
+        <span class="card-tag">Mais Pedido</span>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Buquê Carmim Paixão</div>
+        <p class="card-desc">Rosas vermelhas de cetim, símbolo eterno do amor e da elegância.</p>
+        <a class="btn-card" href="https://wa.me/558486217473?text=Olá!%20Tenho%20interesse%20no%20Buquê%20Carmim%20Paixão" target="_blank">Solicitar Orçamento</a>
+      </div>
+    </div>
+
+    <div class="product-card reveal">
+      <div class="card-img">
+        <img src="Flores/flay.png">
+        <span class="card-tag">Clássico</span>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Buquê Branco Pureza</div>
+        <p class="card-desc">Rosas brancas imaculadas em seda, delicadeza e pureza em cada detalhe.</p>
+        <a class="btn-card" href="https://wa.me/558486217473?text=Olá!%20Tenho%20interesse%20no%20Buquê%20Branco%20Pureza" target="_blank">Solicitar Orçamento</a>
+      </div>
+    </div>
+
+    <div class="product-card reveal">
+      <div class="card-img">
+        <img src="Flores/piseiro.png">
+        <span class="card-tag">Novo</span>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Buquê Lilás Encanto</div>
+        <p class="card-desc">Flores lilás em cetim refinado, ideais para noivas e ocasiões especiais.</p>
+        <a class="btn-card" href="https://wa.me/558486217473?text=Olá!%20Tenho%20interesse%20no%20Buquê%20Lilás%20Encanto" target="_blank">Solicitar Orçamento</a>
+      </div>
+    </div>
+
+    <div class="product-card reveal">
+      <div class="card-img">
+        <img src="Flores/juju.png">
+        <span class="card-tag">Premium</span>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Arranjo Grand Luxe</div>
+        <p class="card-desc">Composição floral elaborada com mix de flores de seda em tons harmoniosos.</p>
+        <a class="btn-card" href="https://wa.me/558486217473?text=Olá!%20Tenho%20interesse%20no%20Arranjo%20Grand%20Luxe" target="_blank">Solicitar Orçamento</a>
+      </div>
+    </div>
+
+    <div class="product-card reveal">
+      <div class="card-img">
+        <img src="Flores/locu.png">
+        <span class="card-tag">Especial</span>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Buquê Rose Romântico</div>
+        <p class="card-desc">Rosas rosadas de seda com acabamento acetinado, para momentos inesquecíveis.</p>
+        <a class="btn-card" href="https://wa.me/558486217473?text=Olá!%20Tenho%20interesse%20no%20Buquê%20Rose%20Romântico" target="_blank">Solicitar Orçamento</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="galeria">
+  <div class="section-header reveal">
+    <span class="section-eyebrow">Galeria</span>
+    <h2 class="section-title">Cada Buquê,<br>uma <em>Obra de Arte</em></h2>
+    <p class="section-sub">Inspire-se com nossas criações e encontre o buquê perfeito para o seu momento.</p>
+  </div>
+
+  <div class="gallery-masonry">
+    <div class="gallery-item reveal"><img src="Flores/didi.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/bia.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/didi.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/didi.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/bia.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/didi.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/bia.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/didi.png"></div>
+    <div class="gallery-item reveal"><img src="Flores/bia.png"></div>
+  </div>
+</section>
+
+<!-- About -->
+
+<!-- Contact -->
+<section id="contato">
+  <div class="section-header reveal">
+    <span class="section-eyebrow" style="color:rgba(255,255,255,.7)">Fale Conosco</span>
+    <h2 class="section-title" style="color:#fff">Vamos Criar<br>Algo <em style="color:rgba(255,255,255,.6)">Especial</em></h2>
+    <p class="section-sub" style="color:rgba(255,255,255,.65)">Entre em contato para solicitar seu orçamento personalizado. Respondemos rapidamente!</p>
+  </div>
+
+  <div class="contact-cards reveal">
+    <a class="contact-card" href="https://wa.me/558486217473" target="_blank">
+      <span class="c-icon">📱</span>
+      <span class="c-label">WhatsApp</span>
+      <span class="c-value">(84) 8621-7473</span>
+    </a>
+    <a class="contact-card" href="https://instagram.com/mariacecylya_" target="_blank">
+      <span class="c-icon">📸</span>
+      <span class="c-label">Instagram</span>
+      <span class="c-value">mariacecylya_</span>
+    </a>
+    <div class="contact-card">
+      <span class="c-icon">⏰</span>
+      <span class="c-label">Atendimento</span>
+      <span class="c-value">Seg – Sex<search>
+      </search></span>
+    </div>
+  </div>
+
+  <a class="btn-whatsapp reveal" href="https://wa.me/558486217473?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20buquê." target="_blank">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.112 1.522 5.838L.053 23.207a.75.75 0 00.74.793h.054l5.535-1.452A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.717 9.717 0 01-4.992-1.376l-.358-.213-3.716.975.992-3.623-.233-.372A9.72 9.72 0 012.25 12C2.25 6.614 6.614 2.25 12 2.25c5.385 0 9.75 4.364 9.75 9.75 0 5.385-4.365 9.75-9.75 9.75z"/></svg>
+    Chamar no WhatsApp
+  </a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <a class="footer-logo" href="#inicio">Flor de <span>Cetim</span></a>
+  <p class="footer-copy">© 2026 Flor de Cetim — Todos os direitos reservados.</p>
+  <div class="social-links">
+    <a class="social-link" href="https://wa.me/558486217473" target="_blank" aria-label="WhatsApp">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.112 1.522 5.838L.053 23.207a.75.75 0 00.74.793h.054l5.535-1.452A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.717 9.717 0 01-4.992-1.376l-.358-.213-3.716.975.992-3.623-.233-.372A9.72 9.72 0 012.25 12C2.25 6.614 6.614 2.25 12 2.25c5.385 0 9.75 4.364 9.75 9.75 0 5.385-4.365 9.75-9.75 9.75z"/></svg>
+    </a>
+    <a class="social-link" href="https://instagram.com/zeromeia" target="_blank" aria-label="Instagram">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+    </a>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lb-close">✕</button>
+  <img src="" id="lb-img" alt="">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
